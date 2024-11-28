@@ -4,7 +4,7 @@ namespace task1
 {
     internal class Program
     {
-        static string connectionString = "Server=YOUR_SERVER_NAME;Database=FirmKanc;Trusted_Connection=True;";
+        static string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Integrated Security=True;Connect Timeout=30;";
         static void Main(string[] args)
         {
             while (true)
